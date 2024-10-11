@@ -1,6 +1,6 @@
 # Estudo de Estatística e Programação em Python
 
-Este repositório contém meu estudo e análises sobre dados musicais, combinando estatística e programação em Python. O objetivo é aprofundar meus conhecimentos em análise de dados, modelagem preditiva e técnicas de programação aplicadas a um conjunto de dados de música.
+Este repositório contém meu estudo e análises com dados de streaming musicais obtidos no Kaggle, combinando estatística e programação em Python. O objetivo é aprofundar meus conhecimentos em análise de dados, modelagem preditiva e técnicas de programação aplicadas a um conjunto de dados de música.
 
 📊 Objetivos do Estudo
 O estudo visa explorar diversas análises e metodologias estatísticas, incluindo:
