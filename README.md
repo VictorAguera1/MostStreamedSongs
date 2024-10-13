@@ -1,84 +1,133 @@
 # Estudo de Estatística e Programação em Python (Em andamento- estou elaborando o código e interpretando resultados no momento)
 
-Este repositório contém meu estudo e análises com dados de streaming musicais obtidos no Kaggle, combinando estatística e programação em Python. O objetivo é aprofundar meus conhecimentos em análise de dados, modelagem preditiva e técnicas de programação aplicadas a um conjunto de dados de música.
+Este repositório contém meu estudo e análises sobre dados de streaming musical, obtidos no Kaggle, utilizando estatística e programação em Python. O objetivo é aprofundar meus conhecimentos em análise de dados, modelagem preditiva e técnicas de programação aplicadas ao universo musical, explorando insights valiosos sobre tendências, popularidade e padrões de consumo.
 
 📊 Objetivos do Estudo
-O estudo visa explorar diversas análises e metodologias estatísticas, incluindo:
+O estudo tem como propósito aplicar e desenvolver diversas metodologias estatísticas e técnicas de machine learning. Entre os principais objetivos, estão:
 
-Análise de Tendências Musicais: Como atributos musicais mudam ao longo do tempo.
-Correlação entre Atributos e Popularidade: Identificação de variáveis que influenciam o número de streams.
-Análise de Clusters: Agrupamento de músicas com base em características semelhantes para segmentação e insights.
-Comparação de Popularidade em Diferentes Plataformas: Investigação de padrões de streaming em Spotify, Apple Music, Deezer e Shazam.
+Análise de Tendências Musicais: Investigar como atributos musicais evoluem ao longo do tempo.
+Correlação entre Atributos e Popularidade: Identificar variáveis que influenciam o número de streams.
+Análise de Clusters: Agrupamento de músicas com base em suas características, facilitando a segmentação de público e recomendações personalizadas.
+Comparação de Popularidade em Diferentes Plataformas: Explorar os padrões de consumo em Spotify, Apple Music, Deezer e Shazam.
 
 📚 Conhecimentos Aplicados
-Durante o desenvolvimento deste estudo, utilizei e aprofundei meus conhecimentos em:
+Ao longo do estudo, aprofundei meus conhecimentos nas seguintes áreas:
 
-Estatística Descritiva: Entendimento dos principais atributos musicais.
-Modelagem Estatística: Aplicação do algoritmo KMeans.
+Estatística Descritiva: Compreensão dos principais atributos musicais.
+Modelagem Estatística: Implementação de algoritmos como K-Means para clustering.
 Visualização de Dados: Criação de gráficos interativos e intuitivos para comunicar insights.
-Tratamento e Limpeza de Dados: Identificação e correção de valores ausentes, outliers e formatação inadequada.
-Programação em Python: Desenvolvimento de soluções eficientes e modulares para análise de grandes conjuntos de dados.
+Tratamento e Limpeza de Dados: Manipulação de dados, detecção e correção de valores ausentes e formatações inadequadas.
+Programação em Python: Desenvolvimento de soluções modulares e eficientes para análise de grandes volumes de dados.
 
 🛠️ Ferramentas Utilizadas
-Algumas das bibliotecas e ferramentas utilizadas nesse estudo:
+Algumas das bibliotecas e ferramentas aplicadas durante este estudo incluem:
 
 Python: Linguagem principal para as análises.
 Pandas: Manipulação de dados tabulares.
 NumPy: Operações numéricas.
 Matplotlib & Seaborn: Visualização de dados.
 Scikit-learn: Algoritmos de machine learning.
+Plotly: Visualização de dados interativa.
 
 🔍 Principais Análises
-Distribuição de BPM (Batidas Por Minuto): Investigação das faixas de BPM mais comuns em músicas populares.
-Impacto de Playlists no Sucesso: Análise do impacto de uma música estar presente em várias playlists e plataformas.
-Clustering de Músicas: Uso de algoritmos de clustering para segmentar músicas com características semelhantes.
-Comparação entre Músicas de Artistas Solo e Colaborações: Análise das diferenças em popularidade entre músicas com 1, 2, 3 ou 4 artistas.
 
-📈 Análises e Resultados
-
-# Quais são os artistas com mais músicas em playlists? 
+# 🎤 Quais são os artistas com mais músicas em playlists? 
 
 ![Gráfico de Barras](Imagens/Imagem1.png)
 
-- Considerações 
+- 📌 Considerações
 
-Taylor Swift e The Weeknd aparecem como os dois artistas com o maior número de músicas em playlists.
-Harry Styles também tem uma quantidade significativa de músicas em playlists, mas um pouco menos que os dois primeiros.
-Eminem, Ed Sheeran, Imagine Dragons e Bad Bunny aparecem em seguida.
-Olivia Rodrigo, Kanye West e Arctic Monkeys fecham a lista dos 10 artistas com mais músicas em playlists, cada um com entre 40.000 e 50.000 músicas.
+Taylor Swift e The Weeknd lideram em número de músicas presentes em playlists. Harry Styles, Eminem, Ed Sheeran, e outros grandes nomes seguem com destaque.
 
-- Insights
+- 💡 Insights
 
-Logo, é observada a popularidade dos artistas nas plataformas de streaming, com Taylor Swift e The Weeknd dominando o topo. Esses dados podem ser usados para entender melhor quais artistas têm maior presença em playlists, o que pode indicar sua relevância no mercado musical atual.
+A análise revela a dominância de alguns artistas em playlists, sugerindo que a popularidade e presença desses artistas nas plataformas de streaming podem ser usados para impulsionar campanhas e maximizar a visibilidade de lançamentos futuros.
 
 
-# Como podemos agrupar músicas com características semelhantes para criar playlists personalizadas, recomendar conteúdos ou segmentar o público de forma mais eficiente?
+# 🎧 Como podemos agrupar músicas com características semelhantes para criar playlists personalizadas, recomendar conteúdos ou segmentar o público de forma mais eficiente?
 
 ![Gráfico de Dispersão](Imagens/Imagem2.png)
 
-- Considerações 
+- 📌 Considerações
 
-Este é um gráfico de dispersão (scatter plot) que exibe os resultados do K-Means clustering aplicado a um conjunto de músicas com base em duas características principais: BPM (batidas por minuto) e energy % (porcentagem de energia). O gráfico divide as músicas em três grupos ou clusters (representados por cores diferentes: verde, azul e laranja), onde:
+O gráfico de dispersão exibe o resultado do algoritmo K-Means, segmentando as músicas em três clusters com base no BPM e nível de energia.
 
-Eixo X (bpm): Representa a velocidade das músicas em batidas por minuto (BPM). Músicas com BPM mais alto tendem a ser mais rápidas.
+- 💡 Insights
 
-Eixo Y (energy %): Representa a energia da música, onde valores mais altos indicam músicas mais energéticas.
+Através dessa análise podemos recomendar playlists personalizadas ou segmentar o público com base em preferências musicais específicas, como músicas rápidas e energéticas (Cluster 2) ou mais lentas e moderadas (Cluster 0).
 
-Clusters:
+# Gráfico do Cotovelo
 
-O Cluster 0 (pontos verdes) agrupa músicas com BPM mais baixos (entre 60 e 120) e variação moderada de energia (em torno de 20% a 95%).
-O Cluster 1 (pontos azuis) agrupa músicas com BPM mais altos (entre 110 e 150) e energia alta, principalmente entre 30% e 95%.
-O Cluster 2 (pontos laranjas) é caracterizado por músicas com BPM elevados (acima de 140) e níveis de energia variados, entre 10% e 90%.
+![Gráfico do Cotovelo](Imagens/Imagem3.png)
 
-- Insights
+Ao utilizar o gráfico do cotovelo, foi possível identificar que três clusters (n = 3) são suficientes para capturar as variações nos dados de forma eficiente, sem introduzir complexidade desnecessária ao modelo.
 
-O K-Means identificou três padrões distintos: músicas mais lentas e energéticas (cluster 0), músicas de BPM médio com alta energia (cluster 1), e músicas rápidas com grande variação de energia (cluster 2). Esse tipo de análise pode ser útil para identificar padrões de gosto musical ou para recomendações de playlists personalizadas.
+# 🎼 Quais atributos musicais (ex: BPM, energia, dançabilidade) estão mais correlacionados com o sucesso (número de streams)?
 
+![Mapa de Calor](Imagens/Imagem4.png)
 
-💡 Próximos Passos
+- 📌 Observação
+
+O mapa de calor exibe as correlações entre atributos musicais como BPM, energia e dançabilidade, e o número de streams.
+
+- 💡 Insights
+
+Músicas com maior dançabilidade tendem a ter valence (felicidade) mais altos. A correlação entre atributos musicais e sucesso (streams) é baixa, sugerindo que outros fatores, como marketing e promoção em playlists, são mais determinantes para o sucesso de uma música.
+
+# 📅 Quais tendências podem ser observadas em relação aos meses de lançamento das músicas mais transmitidas?
+
+![Gáfico de Barras](Imagens/Imagem5.png)
+
+- 📌 Observação
+
+Os meses de março e maio têm o maior número de músicas populares lançadas, enquanto fevereiro e setembro possuem o menor volume de lançamentos de sucesso.
+
+- 💡 Insights
+
+Identificar picos de lançamento pode ajudar na escolha de melhores datas para novas músicas ou campanhas promocionais, maximizando o impacto nos streams.
+
+# 🎶 Qual a distribuição de BPM nas músicas de sucesso, e qual faixa de BPM está mais associada ao sucesso?
+
+![Gáfico de Barras Empilhadas](Imagens/Imagem6.png)
+
+- 📌 Observação
+
+A maior parte das músicas populares concentra-se na faixa de 80 a 140 BPM. Músicas recentes (2022-2023) dominam a distribuição.
+
+- 💡 Insights
+
+Essa faixa de BPM é amplamente associada a músicas dançantes e populares, sendo comum para hits atuais.
+
+# 🤝 Os artistas solo estão dominando o mercado? | As colaborações estão prejudicando a popularidade?
+
+![Gáfico de Barras](Imagens/Imagem7.png)
+
+- 📌 Observação
+
+Músicas com um único artista possuem a maior média de streams, seguidas de colaborações com dois artistas. À medida que o número de artistas aumenta, a média de streams diminui.
+
+- 💡 Insights
+
+Colaborações com muitos artistas são menos comuns, mas podem atrair grandes audiências em casos específicos. No entanto, artistas solo dominam em termos de popularidade.
+
+# 📱 Músicas presentes em várias plataformas (Spotify, Apple Music, Deezer) têm melhor desempenho em termos de streams?
+
+![Gáfico de Barras](Imagens/Imagem8.png)
+
+- 📌 Observação
+
+Músicas disponíveis em várias plataformas (Spotify, Apple Music, Deezer) tendem a ter uma média de streams maior.
+
+- 💡 Insights
+
+Distribuir músicas em múltiplas plataformas amplia a visibilidade, porém músicas exclusivas em poucas plataformas podem gerar mais engajamento.
+
+⏳ Próximos Passos
+
 Explorar outros algoritmos de machine learning, como Gradient Boosting e Support Vector Machines.
 Ampliar as análises com dados sobre preferências de usuários e padrões de consumo em plataformas de streaming.
 Implementar análises de séries temporais para prever tendências futuras de popularidade musical.
 
 ✨ Conclusão
+
 Este repositório reflete meu esforço contínuo em aprimorar minhas habilidades em estatística e ciência de dados, aplicando técnicas avançadas em um contexto prático de análise de dados musicais. Sinta-se à vontade para explorar, fazer perguntas ou contribuir com o projeto!
