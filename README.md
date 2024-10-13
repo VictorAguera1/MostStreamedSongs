@@ -36,22 +36,43 @@ Comparação entre Músicas de Artistas Solo e Colaborações: Análise das dife
 
 📈 Análises e Resultados
 
-- Quais são os artistas com mais músicas em playlists? 
-
+# Quais são os artistas com mais músicas em playlists? 
 
 ![Gráfico de Barras](Imagens/Imagem1.png)
 
-- Interpetação 
+- Considerações 
 
 Taylor Swift e The Weeknd aparecem como os dois artistas com o maior número de músicas em playlists.
 Harry Styles também tem uma quantidade significativa de músicas em playlists, mas um pouco menos que os dois primeiros.
 Eminem, Ed Sheeran, Imagine Dragons e Bad Bunny aparecem em seguida.
 Olivia Rodrigo, Kanye West e Arctic Monkeys fecham a lista dos 10 artistas com mais músicas em playlists, cada um com entre 40.000 e 50.000 músicas.
 
-- Conclusão
+- Insights
 
- A partir do gráfico, é observada a popularidade dos artistas nas plataformas de streaming, com Taylor Swift e The Weeknd dominando o topo. Esses dados podem ser usados para entender melhor quais artistas têm maior presença em playlists, o que pode indicar sua relevância no mercado musical atual.
+Logo, é observada a popularidade dos artistas nas plataformas de streaming, com Taylor Swift e The Weeknd dominando o topo. Esses dados podem ser usados para entender melhor quais artistas têm maior presença em playlists, o que pode indicar sua relevância no mercado musical atual.
 
+
+# Como podemos agrupar músicas com características semelhantes para criar playlists personalizadas, recomendar conteúdos ou segmentar o público de forma mais eficiente?
+
+![Gráfico de Dispersão](Imagens/Imagem2.png)
+
+- Considerações 
+
+Este é um gráfico de dispersão (scatter plot) que exibe os resultados do K-Means clustering aplicado a um conjunto de músicas com base em duas características principais: BPM (batidas por minuto) e energy % (porcentagem de energia). O gráfico divide as músicas em três grupos ou clusters (representados por cores diferentes: verde, azul e laranja), onde:
+
+Eixo X (bpm): Representa a velocidade das músicas em batidas por minuto (BPM). Músicas com BPM mais alto tendem a ser mais rápidas.
+
+Eixo Y (energy %): Representa a energia da música, onde valores mais altos indicam músicas mais energéticas.
+
+Clusters:
+
+O Cluster 0 (pontos verdes) agrupa músicas com BPM mais baixos (entre 60 e 120) e variação moderada de energia (em torno de 20% a 95%).
+O Cluster 1 (pontos azuis) agrupa músicas com BPM mais altos (entre 110 e 150) e energia alta, principalmente entre 30% e 95%.
+O Cluster 2 (pontos laranjas) é caracterizado por músicas com BPM elevados (acima de 140) e níveis de energia variados, entre 10% e 90%.
+
+- Insights
+
+O K-Means identificou três padrões distintos: músicas mais lentas e energéticas (cluster 0), músicas de BPM médio com alta energia (cluster 1), e músicas rápidas com grande variação de energia (cluster 2). Esse tipo de análise pode ser útil para identificar padrões de gosto musical ou para recomendações de playlists personalizadas.
 
 
 💡 Próximos Passos
