@@ -1,4 +1,4 @@
-# Estudo de Estatística e Programação em Python (Em andamento- estou elaborando o código e interpretando resultados no momento)
+# Estudo em Python Sobre Dados de Streaming Musical
 
 Este repositório contém meu estudo e análises sobre dados de streaming musical, obtidos no Kaggle, utilizando estatística e programação em Python. O objetivo é aprofundar meus conhecimentos em análise de dados, modelagem preditiva e técnicas de programação aplicadas ao universo musical, explorando insights valiosos sobre tendências, popularidade e padrões de consumo.
 
