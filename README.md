@@ -39,7 +39,7 @@ Plotly: Visualização de dados interativa.
 
 Taylor Swift e The Weeknd lideram em número de músicas presentes em playlists. Harry Styles, Eminem, Ed Sheeran, e outros grandes nomes seguem com destaque.
 
-- 💡 Insights
+- 💡 Insight
 
 A análise revela a dominância de alguns artistas em playlists, sugerindo que a popularidade e presença desses artistas nas plataformas de streaming podem ser usados para impulsionar campanhas e maximizar a visibilidade de lançamentos futuros.
 
@@ -52,7 +52,7 @@ A análise revela a dominância de alguns artistas em playlists, sugerindo que a
 
 O gráfico de dispersão exibe o resultado do algoritmo K-Means, segmentando as músicas em três clusters com base no BPM e nível de energia.
 
-- 💡 Insights
+- 💡 Insight
 
 Através dessa análise podemos recomendar playlists personalizadas ou segmentar o público com base em preferências musicais específicas, como músicas rápidas e energéticas (Cluster 2) ou mais lentas e moderadas (Cluster 0).
 
@@ -70,7 +70,7 @@ Ao utilizar o gráfico do cotovelo, foi possível identificar que três clusters
 
 O mapa de calor exibe as correlações entre atributos musicais como BPM, energia e dançabilidade, e o número de streams.
 
-- 💡 Insights
+- 💡 Insight
 
 Músicas com maior dançabilidade tendem a ter valence (felicidade) mais altos. A correlação entre atributos musicais e sucesso (streams) é baixa, sugerindo que outros fatores, como marketing e promoção em playlists, são mais determinantes para o sucesso de uma música.
 
@@ -82,7 +82,7 @@ Músicas com maior dançabilidade tendem a ter valence (felicidade) mais altos. 
 
 Os meses de março e maio têm o maior número de músicas populares lançadas, enquanto fevereiro e setembro possuem o menor volume de lançamentos de sucesso.
 
-- 💡 Insights
+- 💡 Insight
 
 Identificar picos de lançamento pode ajudar na escolha de melhores datas para novas músicas ou campanhas promocionais, maximizando o impacto nos streams.
 
@@ -94,7 +94,7 @@ Identificar picos de lançamento pode ajudar na escolha de melhores datas para n
 
 A maior parte das músicas populares concentra-se na faixa de 80 a 140 BPM. Músicas recentes (2022-2023) dominam a distribuição.
 
-- 💡 Insights
+- 💡 Insight
 
 Essa faixa de BPM é amplamente associada a músicas dançantes e populares, sendo comum para hits atuais.
 
@@ -106,7 +106,7 @@ Essa faixa de BPM é amplamente associada a músicas dançantes e populares, sen
 
 Músicas com um único artista possuem a maior média de streams, seguidas de colaborações com dois artistas. À medida que o número de artistas aumenta, a média de streams diminui.
 
-- 💡 Insights
+- 💡 Insight
 
 Colaborações com muitos artistas são menos comuns, mas podem atrair grandes audiências em casos específicos. No entanto, artistas solo dominam em termos de popularidade.
 
@@ -118,7 +118,7 @@ Colaborações com muitos artistas são menos comuns, mas podem atrair grandes a
 
 Músicas disponíveis em várias plataformas (Spotify, Apple Music, Deezer) tendem a ter uma média de streams maior.
 
-- 💡 Insights
+- 💡 Insight
 
 Distribuir músicas em múltiplas plataformas amplia a visibilidade, porém músicas exclusivas em poucas plataformas podem gerar mais engajamento.
 
