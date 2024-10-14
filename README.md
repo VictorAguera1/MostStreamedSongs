@@ -96,7 +96,7 @@ A maior parte das músicas populares concentra-se na faixa de 80 a 140 BPM. Mús
 
 - 💡 Insight
 
-Essa faixa de BPM é amplamente associada a músicas dançantes e populares, sendo comum para hits atuais.
+A faixa de BPM entre 80 e 140 é frequentemente associada a músicas dançantes e populares, sendo comum em muitos hits atuais. Essa característica sugere que músicas dentro dessa faixa têm maior apelo para o público, o que pode explicar sua maior associação com o sucesso em termos de transmissões
 
 # 🤝 Os artistas solo estão dominando o mercado? | As colaborações estão prejudicando a popularidade?
 
