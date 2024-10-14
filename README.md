@@ -84,7 +84,7 @@ Os meses de março e maio têm o maior número de músicas populares lançadas, 
 
 - 💡 Insight
 
-Identificar picos de lançamento pode ajudar na escolha de melhores datas para novas músicas ou campanhas promocionais, maximizando o impacto nos streams.
+Identificando os picos de lançamento podemos aauxiliar na escolha de melhores datas para novas músicas ou campanhas promocionais, maximizando o impacto nos streams.
 
 # 🎶 Qual a distribuição de BPM nas músicas de sucesso, e qual faixa de BPM está mais associada ao sucesso?
 
