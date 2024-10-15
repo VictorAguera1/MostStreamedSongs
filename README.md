@@ -124,8 +124,8 @@ Distribuir músicas em múltiplas plataformas amplia a visibilidade, porém mús
 
 ⏳ Próximos Passos
 
-Explorar outros algoritmos de machine learning, como Gradient Boosting e Support Vector Machines.
 Ampliar as análises com dados sobre preferências de usuários e padrões de consumo em plataformas de streaming.
+
 Implementar análises de séries temporais para prever tendências futuras de popularidade musical.
 
 ✨ Conclusão
